@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Index.aspx" title="Egypt Flat Finder" description="Roommate Finder Cairo, FREE to add your roommate profile on Easy Roommate in Cairo, FREE to post your  room for rent in Cairo. The world's largest Roommates community. Find a flatshare or flatmate fast! 1000s of rooms for rent in flatshares across Cairo, Alexandria, and the rest of Egypt. Advertise for free! As seen on TV. Property to rent through leading Egypt and overseas letting agents. Find a Property lettings search tools help locate flats at Cairo, apartments Cairo, houses &amp; commercial property to let in the areas you require. Flats to Rent privately advertised and from lettings agents. Find a Flat to rent from 1000s across Egypt. Rent a flat today. Apartments For Rent - Nationwide Apartment Rental Search - Find your next apartment for rent with egyptflatfinder.com. View photos cairo, floor plans cairo, prices cairo, detailed descriptions cairo, virtual tours Cairo, streaming video and have instant contact with the apartment community in Cairo.Find apartments for rent in Cairo, condos cairo, townhomes and other rental homes at cairo. View videos cairo, floor plans cairo, photos and 360-degree views. No registration required!, flatshare cairo, flat share cairo, house share cairo, house share cairo, flat share cairo, house share cairo, houseshare cairo, roommate cairo, shared accommodation cairo, rooms to let cairo, room to let, rooms to let cairo, rent room cairo, room for rent cairo, rooms to rent cairo, rooms for rent cairo, housemates cairo, flatshares cairo, flatmates cairo, flatshare cairo, student accommodation cairo, Spare Room cairo, flats cairo,flat cairo,rent cairo,let,house cairo,houses cairo,rental cairo,cheap Cairo, apartments for rent Cairo, apartments Cairo, apartment Cairo, apartment for rent Cairo, rentals Cairo, rental Cairo, for rent Cairo, rent Cairo, forrent.com Cairo, apartment search Cairo, homes for rent Cairo, houses for rent Cairo, roommates Cairo, moving companies Cairo, moving to Cairo, condos at Cairo, townhouses in Cairo, one bedroom apartments in Cairo, two bedroom apartments in Cairo, three bedroom apartments Cairo, apartment guide Cairo, aptsforrent in Cairo, appartments apts in Cairo, aparment for rent in Cairo, apartments forrent in Cairo, forent in Cairo, apts for rent in Cairo, apartmentsforrent cairo, rent cairo, apartments cairo, houses cairo, condo cairo, townhomes cairo, townhouses cairo, apartments for rent in Cairo, apartment finder in Cairo, for rent by owner in Cairo, Egypt flat, Cairo flat, RealEstate Cairo, Cairo Real Estate, Egypt Real Estate, Cairo Flat, Cairo Apartments, Cairo Apartment, Cairo Apts, Egypt Apartment, Egypt Apartment, Egypt Apts, Travel Egypt, Study Egypt, Travel Cairo">
+    <siteMapNode url="Home.aspx" title="Egypt Flat Finder" description="home page of real estate cairo">
+      <siteMapNode url="Owner.aspx" title="Egypt Flat Finder - Owner" description="owner's section">
+        <siteMapNode url="UploadAFlat.aspx" title="Egypt Flat Finder - Upload A Flat" description="upload a cairo flat's information"></siteMapNode>
+        <siteMapNode url="Owner Property.aspx" title="Egypt Flat Finder - Property" description="cairo flats and apartments owner's properties section">
+          <siteMapNode url="Flat Info.aspx" title="Egypt Flat Finder - Flat Info" description="a cairo flat information">
+            <siteMapNode url="Edit Record.aspx" title="Egypt Flat Finder - Edit Flat Info" description="edit a cairo flat's information"></siteMapNode>
+            <siteMapNode url="Upload Pics.aspx" title="Egypt Flat Finder - Upload Pictures" description="upload a cairo flat's pictures"></siteMapNode>
+            <siteMapNode url="View Album.aspx" title="Egypt Flat Finder - Flat Pictures" description="view a cairo flat's pictures"></siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Traveller.aspx" title="Egypt Flat Finder - Traveller" description="cairo lodger's and traveller's section">
+        <siteMapNode url="Catalog.aspx" title="Egypt Flat Finder - Catalog" description="available flats at Cairo catalog">
+          <siteMapNode url="Flat Info.aspx" title="Egypt Flat Finder - Flat Info" description="a Cairo flat information">
+            <siteMapNode url="Edit Record.aspx" title="Egypt Flat Finder - Edit Flat Info" description="edit a cairo flat's information"></siteMapNode>
+            <siteMapNode url="Upload Pics.aspx" title="Egypt Flat Finder - Upload Pictures" description="upload a cairo flat's pictures"></siteMapNode>
+            <siteMapNode url="View Album.aspx" title="Egypt Flat Finder - Flat Pictures" description="view a cairo flat's pictures"></siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="Traveller Favorites.aspx" title="Egypt Flat Finder - Favorites" description="lodger's and traveller's favorite flats and apartments section">
+          <siteMapNode url="Flat Info.aspx" title="Egypt Flat Finder - Flat Info" description="a cairo flat information">
+            <siteMapNode url="Edit Record.aspx" title="Egypt Flat Finder - Edit Flat Info" description="edit a cairo flat's information"></siteMapNode>
+            <siteMapNode url="Upload Pics.aspx" title="Egypt Flat Finder - Upload Pictures" description="upload a cairo flat's pictures"></siteMapNode>
+            <siteMapNode url="View Album.aspx" title="Egypt Flat Finder - Flat Pictures" description="view a cairo flat's pictures"></siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Contact Us.aspx" title="Egypt Flat Finder - Contact Us" description="contact information of egyptflatfinder.com"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="Login.aspx" title="Egypt Flat Finder - Login" description="login page to egyptflatfinder.com"></siteMapNode>
+    <siteMapNode url="Register.aspx" title="Egypt Flat Finder - Sign Up" description="register to become a user on egyptflatfinder.com"></siteMapNode>
+  </siteMapNode>
+</siteMap>

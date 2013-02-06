@@ -1,0 +1,38 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+    <asp:DetailsView runat="server" Height="50px" Width="125px" 
+        AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None">
+        <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+        <CommandRowStyle BackColor="#C5BBAF" Font-Bold="True" />
+        <RowStyle BackColor="#E3EAEB" />
+        <FieldHeaderStyle BackColor="#D0D0D0" Font-Bold="True" />
+        <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+        <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+        <EditRowStyle BackColor="#7C6F57" />
+        <AlternatingRowStyle BackColor="White" />
+    </asp:DetailsView>
+    
+    <asp:GridView runat="server" AllowPaging="True" CellPadding="4" 
+        ForeColor="#333333" PageSize="5" ShowFooter="True" GridLines="Vertical" CellSpacing="5">
+        <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+        <RowStyle BackColor="#E3EAEB" VerticalAlign="Bottom" Wrap="False" />
+        <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+        <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
+        <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" Wrap="False" />
+        <EditRowStyle BackColor="#7C6F57" />
+        <AlternatingRowStyle BackColor="White" />
+    </asp:GridView>

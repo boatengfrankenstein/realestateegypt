@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Real Estate.master.cs"
+    Inherits="Real_Estate" EnableTheming="true" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Real%20Estate.css" rel="stylesheet" type="text/css" />
+    <title>Egypt Flat Finder</title>
+    <style type="text/css">
+        .style2
+        {
+            width: 160px;
+            height: 135px;
+        }
+        .style3
+        {
+            width: 116px;
+        }
+        .style4
+        {
+            width: 449px;
+            height: 100px;
+        }
+        .style5
+        {
+            width: 90px;
+            height: 60px;
+            margin-top: 25;
+        }
+        .style6
+        {
+            height: 60px;
+            margin-top: 0;
+        }
+        .style7
+        {
+            width: 174px;
+            height: 60px;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Spare Room">
+    <meta name="robots" content="all,index,follow">
+    <meta name="distribution" content="Global">
+    <meta name="language" content="en-uk">
+    <meta name="description" content="Roommate Finder , FREE to add your  roommate profile on Easy Roommate, FREE to post your  room for rent. The world's largest Roommates community. Find a flatshare or flatmate fast! 1000s of rooms for rent in flatshares across Cairo, Alexandria, and the rest of Egypt. Advertise for free! As seen on TV. Property to rent through leading Egypt and overseas letting agents. Find a Property lettings search tools help locate flats, apartments, houses &amp; commercial property to let in the areas you require. Flats to Rent privately advertised and from lettings agents. Find a Flat to rent from 1000s across Egypt. Rent a flat today. Apartments For Rent - Nationwide Apartment Rental Search - Find your next apartment for rent with ForRent.com. View photos, floor plans, prices, detailed descriptions, virtual tours, streaming video and have instant contact with the apartment community.Find apartments for rent, condos, townhomes and other rental homes. View videos, floor plans, photos and 360-degree views. No registration required!" />
+    <meta name="keywords" content="flatshare cairo,flat share cairo, house share cairo, house share cairo, flat share cairo, house share cairo, houseshare cairo, roommate cairo, shared accommodation cairo, rooms to let cairo, room to let cairo, rooms to let cairo, rent room cairo, room for rent cairo, rooms to rent cairo, rooms for rent cairo, housemates cairo, flatshares cairo, flatmates cairo, flatshare cairo, student accommodation cairo, Spare Room cairo, flats cairo,flat cairo,rent cairo,let,house cairo,houses cairo,rental cairo,cheap, apartments for rent cairo, apartments cairo, apartment cairo, apartment for rent cairo, rentals cairo, rental cairo, for rent cairo, rent cairo, forrent.com, apartment search cairo, homes for rent cairo, houses for rent cairo, roommates cairo, moving companies cairo, moving cairo, condos cairo, townhouses cairo, one bedroom apartments cairo, two bedroom apartments cairo, three bedroom apartments cairo, apartment guide cairo, aptsforrent cairo, appartments apts cairo, aparment for rent cairo, apartments forrent cairo, forent cairo, apts for rent cairo, apartmentsforrent cairo, rent cairo, apartments cairo, houses cairo, condo cairo, townhomes cairo, townhouses cairo, apartments for rent cairo, apartment finder cairo, for rent by owner cairo, Egypt cairo, Cairo, RealEstate cairo, Cairo Real Estate, Egypt Real Estate, Cairo Flat, Cairo Apartments, Cairo Apartment, Cairo Apts, Egypt Apartment, Egypt Apartment, Egypt Apts, Travel Egypt, Study Egypt, Travel Cairo, egypt flatfinder, egyptflatfinder, egypt flat finder, cairo flat finder, cairo flatfinder, cairoflatfinder" />
+
+    <script language="javascript" type="text/javascript">    
+    function AddToFavorites(obj, title, url){
+              if(navigator.userAgent.indexOf("Firefox") != -1){
+                // Mozilla Firefox Bookmark
+                window.sidebar.addPanel(title, url,"");                
+                return false;
+              }else if(navigator.userAgent.indexOf("IE") != -1){
+                // IE Favorite
+                window.external.AddFavorite( url, title);
+                return false;
+              }else if(navigator.userAgent.indexOf("Opera") != -1){
+                //Opera Hotlist
+                obj.setAttribute('href',url);
+                obj.setAttribute('title',title);
+                obj.setAttribute('rel','sidebar');
+                obj.click();
+                return false;
+              }
+    }        
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <h1>
+                <span lang="de">Egypt Flat Finder</span></h1>
+            <h3>
+                <span lang="de">Renting a flat in Cairo was never that easy!<br />
+                    <span lang="ko"><a href="#" onclick="AddToFavorites(this, 'Egypt Flat Finder', 'http://www.egyptflatfinder.com/');">
+                        <small>Bookmark EgyptFlatFinder.com</small></a></span></span></h3>
+        </div>
+        <ul id="nav">
+            <li><a href="Home.aspx" class="active">Home</a></li>
+            <li><a href="Owner.aspx">Owner</a></li>
+            <li><a href="Traveller.aspx">Traveller</a></li>
+            <li><a href="Contact%20Us.aspx">Contact Us</a></li>
+        </ul>
+        <br class="clear" />
+        <div id="sidebar">
+            <h1>
+                Hello<span lang="de"> </span>
+                <asp:LoginName ID="LoginName1" runat="server" />
+                <span lang="de">&nbsp;</span>!</h1>
+            <br />
+            <asp:LoginView ID="LoginView1" runat="server">
+                <AnonymousTemplate>
+                    <asp:Login ID="Login1" runat="server" BackColor="#E3EAEB" BorderColor="#E6E2D8" BorderPadding="4"
+                        BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em"
+                        ForeColor="#333333" TextLayout="TextOnTop" Width="160px">
+                        <TextBoxStyle Font-Size="0.8em" />
+                        <LoginButtonStyle BackColor="White" BorderColor="#C5BBAF" BorderStyle="Solid" BorderWidth="1px"
+                            Font-Names="Verdana" Font-Size="0.8em" ForeColor="#1C5E55" />
+                        <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
+                        <TitleTextStyle BackColor="#1C5E55" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
+                    </asp:Login>
+                </AnonymousTemplate>
+            </asp:LoginView>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Register.aspx">Sign 
+            Up</asp:HyperLink>
+            <br />
+            <br />
+            <img alt="" class="style2" src="Images/Backgrounds/10-percent.jpg" /><br />
+            <br />
+            <!--<div class="sidebarfooter">
+            </div>-->
+            <!--<div id="sidebar_bottom">
+            
+            </div>-->
+            <blockquote class="style3">
+                <span lang="de" style="font-style: oblique; font-weight: bolder; font-size: smaller;">
+                    In return for this Service, We are charging both Owner and Lodger 10% of the 
+                net payment as a Donation to promote our Business and Charity works.             We hope our Service reaches the level of your expectations.</span>
+            </blockquote>
+            <br />
+            <!-- GoStats JavaScript Based Code -->
+
+            <script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+
+            <script type="text/javascript">_gos='c5.gostats.com';_goa=1010735;
+_got=3;_goi=11;_goz=0;_gol='website analysis';_GoStatsRun();</script>
+
+            <noscript>
+                <a target="_blank" title="website analysis" href="http://gostats.com">
+                    <img alt="website analysis" src="http://c5.gostats.com/bin/count/a_1010735/t_3/i_11/counter.png"
+                        style="border-width: 0" /></a></noscript>
+            <!-- End GoStats JavaScript Based Code -->
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="ads" style="vertical-align: bottom;">
+                <br />
+                <a href="http://www.jaguartours.net" target="_blank">
+                    <img src="Images/Backgrounds/jaguar-tours.jpg" alt="Jaguar Tours Egypt" class="style5" /></a>
+                <a href="http://www.pharaonicvillage.com" target="_blank">
+                    <img src="Images/Backgrounds/pharaonic-village.jpg" alt="The Pharaonic Village - Giza"
+                        class="style6" /></a>
+                <img alt="Egypt Flat Finder - Advertise With Egypt Flat Finder" class="style7" longdesc="Post your Ad of Cairo and Egypt apartments"
+                    src="Images/Backgrounds/advertise.jpg" /><br />
+                <br />
+                <img alt="Egypt Flat Finder - Online Payment Supported" class="style4" src="Images/Backgrounds/payment-footer.jpg" /></div>
+        </div>
+    </div>
+    <div id="footer">
+        <!-- Link Exchange, Goodgle Adsense-->
+        <p align="center">
+            <!-- Please leave this line intact -->
+            Template design by <a href="http://www.sixshootermedia.com">Six Shooter Media</a>.<br />
+            <!-- you can delete below here -->
+            Featured on <a href="http://www.sixshootermedia.com/Pretty_as_a_Picture">Pretty as a
+                Picture</a>, <a href="http://www.openwebdesign.org">OWD.org</a> and <a href="http://www.oswd.org">
+                    OSWD.org</a>.<br />
+            &copy; All Rights Reserved.
+        </p>
+    </div>
+    </form>
+</body>
+</html>
